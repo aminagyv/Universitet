@@ -20,8 +20,9 @@ public class Main {
         instructor.age=30;
         instructor.corseName="Riyaziyyat";
         instructor.subjekt="hendese";
-        System.out.println(instructor.isCourseNameContains("fizika"));
+        System.out.println(instructor.isCourseNameContains( "fizika"));
         System.out.println(instructor.isSubjectStartsWith("hen"));
+        System.out.println(instructor.isSubjectStartsWith("salam"));
 
 
 
