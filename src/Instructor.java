@@ -10,6 +10,7 @@ public class Instructor extends Person {
     }
 
     public Instructor() {
+//        System.out.println("deyisiklik etdim");
 
     }
 
@@ -17,9 +18,11 @@ public class Instructor extends Person {
 
          return corseName.toLowerCase().contains(yoxlayis.toLowerCase());
 
+
     }
     public boolean isSubjectStartsWith(String yoxlayis2){
         return subjekt.toLowerCase().startsWith(yoxlayis2.toLowerCase());
+
     }
 
 }

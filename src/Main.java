@@ -21,6 +21,7 @@ public class Main {
         instructor.corseName="Riyaziyyat";
         instructor.subjekt="hendese";
         System.out.println(instructor.isCourseNameContains("fizika"));
+        System.out.println(instructor.isCourseNameContains("hendese"));
         System.out.println(instructor.isSubjectStartsWith("hen"));
 
 

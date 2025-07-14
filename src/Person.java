@@ -42,6 +42,7 @@ public class Person {
         else {
             System.out.println(false);
         }
+//        System.out.println("deyisikliketdim");
     }
 
 

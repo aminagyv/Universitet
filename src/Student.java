@@ -8,5 +8,7 @@ public class Student extends Person{
 
         System.out.println("studentId: "+studentId);
         System.out.println("course: "+course);
+//        System.out.println("deyisiklik etdim");
     }
+
 }
